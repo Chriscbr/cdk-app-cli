@@ -720,6 +720,13 @@
   dependencies:
     "@babel/types" "^7.3.0"
 
+"@types/fs-extra@^9.0.13":
+  version "9.0.13"
+  resolved "https://registry.yarnpkg.com/@types/fs-extra/-/fs-extra-9.0.13.tgz#7594fbae04fe7f1918ce8b3d213f74ff44ac1f45"
+  integrity sha512-nEnwB++1u5lVDM2UI4c1+5R+FYaKfaAzS4OococimjVm3nQw3TuzH5UNsocrcTBbhnerblyHj4A49qXbIiZdpA==
+  dependencies:
+    "@types/node" "*"
+
 "@types/graceful-fs@^4.1.2":
   version "4.1.5"
   resolved "https://registry.yarnpkg.com/@types/graceful-fs/-/graceful-fs-4.1.5.tgz#21ffba0d98da4350db64891f92a9e5db3cdb4e15"
@@ -774,10 +781,10 @@
   resolved "https://registry.yarnpkg.com/@types/node/-/node-17.0.21.tgz#864b987c0c68d07b4345845c3e63b75edd143644"
   integrity sha512-DBZCJbhII3r90XbQxI8Y9IjjiiOGlZ0Hr32omXIZvwwZ7p4DMMXGrKXVyPfuoBOri9XNtL0UK69jYIBIsRX3QQ==
 
-"@types/node@^12":
-  version "12.20.46"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-12.20.46.tgz#7e49dee4c54fd19584e6a9e0da5f3dc2e9136bc7"
-  integrity sha512-cPjLXj8d6anFPzFvOPxS3fvly3Shm5nTfl6g8X5smexixbuGUf7hfr21J5tX9JW+UPStp/5P5R8qrKL5IyVJ+A==
+"@types/node@^14":
+  version "14.18.12"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-14.18.12.tgz#0d4557fd3b94497d793efd4e7d92df2f83b4ef24"
+  integrity sha512-q4jlIR71hUpWTnGhXWcakgkZeHa3CCjcQcnuzU8M891BAWA2jHiziiWEPEkdS5pFsz7H9HJiy8BrK7tBRNrY7A==
 
 "@types/normalize-package-data@^2.4.0":
   version "2.4.1"
@@ -1317,7 +1324,7 @@ chalk@^2.0.0, chalk@^2.4.2:
     escape-string-regexp "^1.0.5"
     supports-color "^5.3.0"
 
-chalk@^4.0.0, chalk@^4.1.0, chalk@^4.1.2:
+chalk@^4, chalk@^4.0.0, chalk@^4.1.0, chalk@^4.1.2:
   version "4.1.2"
   resolved "https://registry.yarnpkg.com/chalk/-/chalk-4.1.2.tgz#aac4e2b7734a740867aeb16bf02aad556a1e7a01"
   integrity sha512-oKnbhFyRIXpUuez8iBMmyEa4nbj4IOQyuhc/wy9kY7/WVPcwIO9VA668Pu8RkO7+0G76SLROeyw9CpQ061i4mA==
@@ -1992,6 +1999,11 @@ escodegen@^2.0.0:
   optionalDependencies:
     source-map "~0.6.1"
 
+eslint-config-prettier@^8.4.0:
+  version "8.4.0"
+  resolved "https://registry.yarnpkg.com/eslint-config-prettier/-/eslint-config-prettier-8.4.0.tgz#8e6d17c7436649e98c4c2189868562921ef563de"
+  integrity sha512-CFotdUcMY18nGRo5KGsnNxpznzhkopOcOo0InID+sgQssPrzjvsyKZPvOgymTFeHrFuC3Tzdf2YndhXtULK9Iw==
+
 eslint-import-resolver-node@^0.3.6:
   version "0.3.6"
   resolved "https://registry.yarnpkg.com/eslint-import-resolver-node/-/eslint-import-resolver-node-0.3.6.tgz#4048b958395da89668252001dbd9eca6b83bacbd"
@@ -2037,6 +2049,13 @@ eslint-plugin-import@^2.25.4:
     object.values "^1.1.5"
     resolve "^1.20.0"
     tsconfig-paths "^3.12.0"
+
+eslint-plugin-prettier@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-prettier/-/eslint-plugin-prettier-4.0.0.tgz#8b99d1e4b8b24a762472b4567992023619cb98e0"
+  integrity sha512-98MqmCJ7vJodoQK359bqQWaxOE0CS8paAz/GgjaZLyex4TTk3g9HugoO89EqWCrFiOqn9EVvcoo7gZzONCWVwQ==
+  dependencies:
+    prettier-linter-helpers "^1.0.0"
 
 eslint-scope@^5.1.1:
   version "5.1.1"
@@ -2190,6 +2209,11 @@ fast-deep-equal@^3.1.1, fast-deep-equal@^3.1.3:
   resolved "https://registry.yarnpkg.com/fast-deep-equal/-/fast-deep-equal-3.1.3.tgz#3a7d56b559d6cbc3eb512325244e619a65c6c525"
   integrity sha512-f3qQ9oQy9j2AhBe/H9VC91wLmKBCCU/gDOnKNAYG5hswO7BLKj09Hc5HYNz9cGI++xlpDCIgDaitVs03ATR84Q==
 
+fast-diff@^1.1.2:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/fast-diff/-/fast-diff-1.2.0.tgz#73ee11982d86caaf7959828d519cfe927fac5f03"
+  integrity sha512-xJuoT5+L99XlZ8twedaRf6Ax2TgQVxvgZOYoPKqZufmJib0tL2tegPBOZb1pVNgIhlqDlA0eO0c3wBvQcmzx4w==
+
 fast-glob@^3.2.9:
   version "3.2.11"
   resolved "https://registry.yarnpkg.com/fast-glob/-/fast-glob-3.2.11.tgz#a1172ad95ceb8a16e20caa5c5e56480e5129c1d9"
@@ -2319,6 +2343,15 @@ fs-access@^1.0.1:
   integrity sha1-1qh/JiJxzv6+wwxVNAf7mV2od3o=
   dependencies:
     null-check "^1.0.0"
+
+fs-extra@^10.0.1:
+  version "10.0.1"
+  resolved "https://registry.yarnpkg.com/fs-extra/-/fs-extra-10.0.1.tgz#27de43b4320e833f6867cc044bfce29fdf0ef3b8"
+  integrity sha512-NbdoVMZso2Lsrn/QwLXOy6rm0ufY2zEOKCDzJR/0kBsb0E6qed0P3iYK+Ath3BfvXEeu4JhEtXLgILx5psUfag==
+  dependencies:
+    graceful-fs "^4.2.0"
+    jsonfile "^6.0.1"
+    universalify "^2.0.0"
 
 fs-extra@^9.1.0:
   version "9.1.0"
@@ -4466,6 +4499,18 @@ prepend-http@^2.0.0:
   resolved "https://registry.yarnpkg.com/prepend-http/-/prepend-http-2.0.0.tgz#e92434bfa5ea8c19f41cdfd401d741a3c819d897"
   integrity sha1-6SQ0v6XqjBn0HN/UAddBo8gZ2Jc=
 
+prettier-linter-helpers@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/prettier-linter-helpers/-/prettier-linter-helpers-1.0.0.tgz#d23d41fe1375646de2d0104d3454a3008802cf7b"
+  integrity sha512-GbK2cP9nraSSUF9N2XwUwqfzlAFlMNYYl+ShE/V+H8a9uNl/oUqB1w2EL54Jh0OlyRSd8RfWYJ3coVS4TROP2w==
+  dependencies:
+    fast-diff "^1.1.2"
+
+prettier@^2.5.1:
+  version "2.5.1"
+  resolved "https://registry.yarnpkg.com/prettier/-/prettier-2.5.1.tgz#fff75fa9d519c54cf0fce328c1017d94546bc56a"
+  integrity sha512-vBZcPRUR5MZJwoyi3ZoyQlc1rXeEck8KgeC9AwwOn+exuxLxq5toTRDTSaVrXHxelDMHy9zlicw8u66yxoSUFg==
+
 pretty-format@^27.0.0, pretty-format@^27.5.1:
   version "27.5.1"
   resolved "https://registry.yarnpkg.com/pretty-format/-/pretty-format-27.5.1.tgz#2181879fdea51a7a5851fb39d920faa63f01d88e"
@@ -5657,6 +5702,11 @@ yargs-parser@20.x, yargs-parser@^20.2.2, yargs-parser@^20.2.3:
   resolved "https://registry.yarnpkg.com/yargs-parser/-/yargs-parser-20.2.9.tgz#2eb7dc3b0289718fc295f362753845c41a0c94ee"
   integrity sha512-y11nGElTIV+CT3Zv9t7VKl+Q3hTQoT9a1Qzezhhl6Rp21gJ/IVTW7Z3y9EWXhuUBC2Shnf+DX0antecpAwSP8w==
 
+yargs-parser@^21.0.0:
+  version "21.0.1"
+  resolved "https://registry.yarnpkg.com/yargs-parser/-/yargs-parser-21.0.1.tgz#0267f286c877a4f0f728fceb6f8a3e4cb95c6e35"
+  integrity sha512-9BK1jFpLzJROCI5TzwZL/TU4gqjK5xiHV/RfWLOahrjAko/e4DJkRDZQXfvqAsiZzzYhgAzbgz6lg48jcm4GLg==
+
 yargs@^16.0.0, yargs@^16.2.0:
   version "16.2.0"
   resolved "https://registry.yarnpkg.com/yargs/-/yargs-16.2.0.tgz#1c82bf0f6b6a66eafce7ef30e376f49a12477f66"
@@ -5669,6 +5719,19 @@ yargs@^16.0.0, yargs@^16.2.0:
     string-width "^4.2.0"
     y18n "^5.0.5"
     yargs-parser "^20.2.2"
+
+yargs@^17.3.1:
+  version "17.3.1"
+  resolved "https://registry.yarnpkg.com/yargs/-/yargs-17.3.1.tgz#da56b28f32e2fd45aefb402ed9c26f42be4c07b9"
+  integrity sha512-WUANQeVgjLbNsEmGk20f+nlHgOqzRFpiGWVaBrYGYIGANIIu3lWjoyi0fNlFmJkvfhCZ6BXINe7/W2O2bV4iaA==
+  dependencies:
+    cliui "^7.0.2"
+    escalade "^3.1.1"
+    get-caller-file "^2.0.5"
+    require-directory "^2.1.1"
+    string-width "^4.2.3"
+    y18n "^5.0.5"
+    yargs-parser "^21.0.0"
 
 yocto-queue@^0.1.0:
   version "0.1.0"
